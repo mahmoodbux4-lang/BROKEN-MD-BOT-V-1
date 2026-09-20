@@ -5,7 +5,7 @@ on:
 push:
 branches:
 - main
-pull\_request:
+pull_request:
 branches:
 - main
 jobs:
