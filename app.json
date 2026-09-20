@@ -1,0 +1,21 @@
+{
+  "name": "BROKEN 𝗠𝗗 𝗕𝗢𝗧 V1",
+  "description": "BROKEN 𝗠𝗗 𝗕𝗢𝗧 V1 WhatsApp bot made by ArslanMD official",
+  "logo": "https://i.supaimg.com/f1745ecd-7fcf-4024-9c5d-c19ca3436c7c/4c04f3b1-d8d6-459e-a304-6da98a9fbfee.png",
+  "keywords": ["bot","BROKEN 𝗠𝗗 𝗕𝗢𝗧 V1"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the BROKEN 𝗠𝗗 𝗕𝗢𝗧 V1 session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
